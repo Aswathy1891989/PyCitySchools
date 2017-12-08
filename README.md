@@ -41,6 +41,6 @@ In this project, the task is to help the school board and mayor make strategic d
       <ol>
         <li>The function spending_group() uses the dataframe from spending_student(), that takes arguments={dataframe,criteria=column used for grouping}.
         <li>Using the dataframe, the function retrieves scores and calculates average and pass %. Since the score field has sum of score for each school, sum of that value will yield sum for each bin
-        <li> returns the df
+        <li> Returns the df calculated based on the criteria passed
       </ol>
 
