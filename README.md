@@ -36,6 +36,7 @@ In this project, the task is to help the school board and mayor make strategic d
         <li> It returns the dataframe with all values
       </ol>
         --Create bins and label them and place to dataframe
+        
    <b><i>spending_group()</i></b>
       <ol>
         <li>The function spending_group() uses the dataframe from spending_student(), that takes arguments={dataframe,criteria=column used for grouping}.
