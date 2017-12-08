@@ -1,13 +1,28 @@
 # PyCitySchools
 In this project, the task is to help the school board and mayor make strategic decisions regarding future school budgets and priorities.
+The project is divided in 4 sections
+      <ol>
+          <li> Summary of all Schools in District
+          <li>Passing Rate by School 
+          <li> Passing Rate by Grades in School
+          <li> Passing Rate by School Size
+          <li> Passing Rate by School Type
+      </ol>
 ## Functions Used:
-  <ol>
-    <li>Use the function <b><i>reading_file()</i></b> to read the file , which takes argument path of the .csv file and returns the             dataframe
-    <li>The function pass_score() returns the % of passed students. It take arguments : DataFrame, Subject name :a string(maths or               reading),and    student count which is zero if returning pass count only. 
   
-   <li>The function  <b><i>district_summary()</i></b>, summarizes the details of the school on district level. It returns dataframe                          with summary         
-   <li>Thefunction  <b><i>pass_score()</i></b> is used to calculate pass % for each subject
-   </ol>
+  <b><i>reading_file()</i></b> 
+    <ol>
+      <li>The function is used to read the file, which takes argument path of the .csv file and returns the dataframe
+    </ol>
+  <b><i>pass_score()</i></b>
+     <ol>
+        <li>The function pass_score() returns the % of passed students. It take arguments : DataFrame, Subject name :a string(maths or               reading),and    student count which is zero if returning pass count only. 
+     </ol>
+  <b><i>district_summary()</i></b>
+     <ol>
+       <li>The function , summarizes the details of the school on district level. It returns dataframe                          with                 summary         
+       <li>Thefunction  <b><i>pass_score()</i></b> is called to calculate pass % for each subject
+     </ol>
    
    <b><i>passSchool()</i></b>
       <ol>
