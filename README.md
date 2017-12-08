@@ -1,13 +1,17 @@
 # PyCitySchools
 In this project, the task is to help the school board and mayor make strategic decisions regarding future school budgets and priorities.
-##### Functions Used:
-  -Use the function <b><i>reading_file()</i></b> to read the file , which takes argument path of the .csv file and returns the dataframe
-  -The function pass_score() returns the % of passed students. It take arguments : DataFrame, Subject name :a string(maths or reading),and    student count which is zero if returning pass count only. 
-  ### District
-  <b><i>district_summary()</i></b>
-  -The function district_summary(), summarizes the details of the school on district level. It returns dataframe with summary. It uses         pass_score() to calculate pass % for each subject
+## Functions Used:
+  <ol>
+    <li>Use the function <b><i>reading_file()</i></b> to read the file , which takes argument path of the .csv file and returns the             dataframe
+    <li>The function pass_score() returns the % of passed students. It take arguments : DataFrame, Subject name :a string(maths or               reading),and    student count which is zero if returning pass count only. 
+  </ol>
+  
+  ### District  
+    **district_summary()** 
+        -The function *district_summary()*, summarizes the details of the school on district level. It returns dataframe with summary           - Thefunction *pass_score()is used* to calculate pass % for each subject
+    
   ### Pass % by School
-    -<b><i>passSchool()</i></b>
+  <b><i>passSchool()</i></b>
     <ol>
     <li>The passSchool() is used to calculate summary of Pass rate, based on the school.
     <li>The function groups based on <i>School ID</i>, which is the unique value for each school. 
@@ -47,3 +51,4 @@ In this project, the task is to help the school board and mayor make strategic d
   ## Scores by School Type
   -Use the spending_student() create df for grouping by type
   -Use spending_group to calculate percentages, with arguments={dataframe,criteria=type}
+</ol>
